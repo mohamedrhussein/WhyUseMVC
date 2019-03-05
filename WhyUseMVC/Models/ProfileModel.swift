@@ -1,5 +1,5 @@
 //
-//  Profile.swift
+//  ProfileModel.swift
 //  WhyUseMVC
 //
 //  Created by Mohamed Rabie on 3/5/19.
