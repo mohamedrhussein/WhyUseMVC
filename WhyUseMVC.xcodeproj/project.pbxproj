@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D84C631222E935D00DC75EF /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D84C630222E935D00DC75EF /* ProfileModel.swift */; };
+		4D84C652222E9B0800DC75EF /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D84C651222E9B0800DC75EF /* ProfileController.swift */; };
 		4DB4D8B5221EBCB70019F972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB4D8B4221EBCB70019F972 /* AppDelegate.swift */; };
-		4DB4D8B7221EBCB70019F972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB4D8B6221EBCB70019F972 /* ViewController.swift */; };
+		4DB4D8B7221EBCB70019F972 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB4D8B6221EBCB70019F972 /* ProfileViewController.swift */; };
 		4DB4D8BA221EBCB70019F972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB4D8B8221EBCB70019F972 /* Main.storyboard */; };
 		4DB4D8BD221EBCB70019F972 /* WhyUseMVC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DB4D8BB221EBCB70019F972 /* WhyUseMVC.xcdatamodeld */; };
 		4DB4D8BF221EBCB90019F972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB4D8BE221EBCB90019F972 /* Assets.xcassets */; };
@@ -35,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D84C630222E935D00DC75EF /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		4D84C651222E9B0800DC75EF /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		4DB4D8B1221EBCB70019F972 /* WhyUseMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhyUseMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB4D8B4221EBCB70019F972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DB4D8B6221EBCB70019F972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DB4D8B6221EBCB70019F972 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		4DB4D8B9221EBCB70019F972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DB4D8BC221EBCB70019F972 /* WhyUseMVC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhyUseMVC.xcdatamodel; sourceTree = "<group>"; };
 		4DB4D8BE221EBCB90019F972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +80,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D524E56221EF96700C6A735 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4DB4D8B4221EBCB70019F972 /* AppDelegate.swift */,
+				4DB4D8C0221EBCB90019F972 /* LaunchScreen.storyboard */,
+				4DB4D8B8221EBCB70019F972 /* Main.storyboard */,
+				4DB4D8C3221EBCB90019F972 /* Info.plist */,
+				4DB4D8BE221EBCB90019F972 /* Assets.xcassets */,
+				4DB4D8BB221EBCB70019F972 /* WhyUseMVC.xcdatamodeld */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		4D84C62D222E92BE00DC75EF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D84C651222E9B0800DC75EF /* ProfileController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D84C62E222E92CD00DC75EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DB4D8B6221EBCB70019F972 /* ProfileViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D84C62F222E92D400DC75EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D84C630222E935D00DC75EF /* ProfileModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4DB4D8A8221EBCB70019F972 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +140,10 @@
 		4DB4D8B3221EBCB70019F972 /* WhyUseMVC */ = {
 			isa = PBXGroup;
 			children = (
-				4DB4D8B4221EBCB70019F972 /* AppDelegate.swift */,
-				4DB4D8B6221EBCB70019F972 /* ViewController.swift */,
-				4DB4D8B8221EBCB70019F972 /* Main.storyboard */,
-				4DB4D8BE221EBCB90019F972 /* Assets.xcassets */,
-				4DB4D8C0221EBCB90019F972 /* LaunchScreen.storyboard */,
-				4DB4D8C3221EBCB90019F972 /* Info.plist */,
-				4DB4D8BB221EBCB70019F972 /* WhyUseMVC.xcdatamodeld */,
+				4D524E56221EF96700C6A735 /* SupportFiles */,
+				4D84C62F222E92D400DC75EF /* Models */,
+				4D84C62E222E92CD00DC75EF /* Views */,
+				4D84C62D222E92BE00DC75EF /* Controllers */,
 			);
 			path = WhyUseMVC;
 			sourceTree = "<group>";
@@ -259,8 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D84C652222E9B0800DC75EF /* ProfileController.swift in Sources */,
 				4DB4D8BD221EBCB70019F972 /* WhyUseMVC.xcdatamodeld in Sources */,
-				4DB4D8B7221EBCB70019F972 /* ViewController.swift in Sources */,
+				4D84C631222E935D00DC75EF /* ProfileModel.swift in Sources */,
+				4DB4D8B7221EBCB70019F972 /* ProfileViewController.swift in Sources */,
 				4DB4D8B5221EBCB70019F972 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,7 +478,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U6Z2MCMJT7;
-				INFOPLIST_FILE = WhyUseMVC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WhyUseMVC/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +496,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U6Z2MCMJT7;
-				INFOPLIST_FILE = WhyUseMVC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WhyUseMVC/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
